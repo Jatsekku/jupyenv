@@ -27,7 +27,7 @@ pkgs: let
         cargoDeps = pkgs.rustPlatform.fetchCargoTarball {
           inherit (old) src;
           name = "${old.pname}-${old.version}";
-          hash = "sha256-VOmMNEdKHrPKJzs+D735Y52y47MubPwLlfkvB7Glh14=";
+          hash = "sha256-TYO5p/9v/eMTHxAsRdZvYoVB/W1yvtUVPi205F3WlOo=";
         };
       });
     });
