@@ -27,7 +27,7 @@ pkgs: let
         cargoDeps = pkgs.rustPlatform.fetchCargoVendor {
           inherit (old) src;
           name = "${old.pname}-${old.version}";
-          hash = "sha256-TYO5p/9v/eMTHxAsRdZvYoVB/W1yvtUVPi205F3WlOo=";
+          hash = "sha256-AHmnDTHuoB9wHH4CH20C+hFi9WaQBoUNMIvTIZlajVw=";
         };
       });
     });
